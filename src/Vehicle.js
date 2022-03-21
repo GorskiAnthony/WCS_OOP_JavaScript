@@ -6,9 +6,7 @@ class Vehicle {
 	}
 
 	getPropsString() {
-		return `Name has a value of ${this.name}  
-Color has a value of ${this.color}
-Wheels has a value of ${this.wheels}`;
+		return `The name of your vehicle is ✨${this.name}✨ it is 🌈${this.color}🌈 color and has 🛞${this.wheels}🛞 wheel(s)!`;
 	}
 
 	logTypeAndProps() {

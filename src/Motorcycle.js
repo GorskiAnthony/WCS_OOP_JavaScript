@@ -6,7 +6,7 @@ class Motorcycle extends Vehicle {
 	}
 
 	logTypeAndProps() {
-		console.log(`Motorcycle specs: ${this.getPropsString()}`);
+		console.log(`🏍 specs: ${this.getPropsString()}`);
 	}
 }
 

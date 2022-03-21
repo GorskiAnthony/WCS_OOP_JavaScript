@@ -8,8 +8,9 @@ class Car extends Vehicle {
 
 	logTypeAndProps() {
 		console.log(
-			`Cars specs: ${this.getPropsString()}
-LockDoors has a value of ${this.lockDoors}`
+			`🚗 specs: ${this.getPropsString()} (🤫 the door is ${
+				this.lockDoors ? "locked" : "unlocked"
+			})`
 		);
 	}
 }
