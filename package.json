@@ -5,6 +5,7 @@
 	"main": "index.html",
 	"scripts": {
 		"start": "parcel index.js --open",
+		"dev": "parcel index.html index.js --open",
 		"build": "parcel build index.html"
 	},
 	"resolutions": {
