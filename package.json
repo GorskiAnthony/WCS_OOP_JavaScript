@@ -4,17 +4,17 @@
 	"description": "",
 	"main": "index.html",
 	"scripts": {
-		"start": "parcel index.html --open",
+		"start": "parcel index.js --open",
 		"build": "parcel build index.html"
-	},
-	"dependencies": {
-		"parcel-bundler": "^1.6.1"
-	},
-	"devDependencies": {
-		"@babel/core": "7.2.0"
 	},
 	"resolutions": {
 		"@babel/preset-env": "7.13.8"
 	},
-	"keywords": []
+	"keywords": [],
+	"dependencies": {
+		"parcel-bundler": "^1.12.5"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.17.8"
+	}
 }
