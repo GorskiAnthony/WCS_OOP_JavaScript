@@ -1,15 +1,15 @@
 import Vehicle from "./Vehicle";
 
 class Car extends Vehicle {
-	constructor(name, color, wheels = 4, lockDoors = true) {
+	constructor(name, color, wheels = 4, isLocked = false) {
 		super(name, color, wheels);
-		this.lockDoors = lockDoors;
+		this.isLocked = isLocked;
 	}
 
 	logTypeAndProps() {
 		console.log(
 			`🚗 specs: ${this.getPropsString()} (🤫 the door is ${
-				this.lockDoors ? "locked" : "unlocked"
+				this.isLocked ? "locked" : "unlocked"
 			})`
 		);
 	}
